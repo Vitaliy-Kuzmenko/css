@@ -62,13 +62,13 @@ a {
 
 
 .line_1 {
-   max-width: 260px;
+   width: 260px;
 }
 .line_2 {
-    max-width: 185px;   
+    width: 185px;   
 }
 .line_3 {
-    max-width: 199px; 
+    width: 199px; 
 }
 .line_3 > a {
     line-height: 20px;
@@ -77,7 +77,7 @@ a {
     margin-left: 15px;
 }
 .line_4 {  
-    max-width: 331px;  
+    width: 331px;  
 }
 .btn_line_4 {
     display: flex;
@@ -99,7 +99,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    max-width: 80px;
+    width: 80px;
     border-width: 0px 0px 0px 1px;
     border-style: solid;
     border-color: #C4C4C4;
@@ -119,12 +119,12 @@ a {
 .first-screen-menu {
     display: flex;
     margin: 0px auto;
-    max-width: 1295px;
+    width: 1295px;
     height: 88px;   
 }
 
 .main_menu {
-    max-width: 1248px;
+    width: 1248px;
     height: 27px;
     margin: 0 auto;
     padding-top: 30px;
@@ -168,17 +168,17 @@ a {
 .first-screen-content {
     display: flex;
     margin: 0px auto;
-    max-width: 1295px;
+    width: 1295px;
     height: 532px;
 }
 .first-screen-content-left {
-    max-width: 490px;
+width: 490px;
 height: 532px;
 margin-right: 60px;
 }
 
 .first-screen-content-left_text{
-    max-width: 416px;
+    width: 416px;
     height: 266px;
     margin: 133px 134px 0px 0px;
 }
@@ -208,7 +208,7 @@ margin-right: 60px;
 
 }
 .info_first-screen{
-    max-width: 416px;
+    width: 416px;
     height: 84px;
     font-size: 14px;
     line-height: 21px;
@@ -219,13 +219,13 @@ margin-right: 60px;
     display: flex;
     flex-direction: row-reverse;
     margin-top: 22px;
-    max-width: 490px;
+    width: 490px;
     height: 50px;
 
 }
 
 .first-screen-content-right{
-    max-width: 745px;
+    width: 745px;
     height: 532px;
 }
 
@@ -248,48 +248,48 @@ margin-right: 60px;
 }
 
 .main_cat-1 {
-    max-width: 648px;
+    width: 648px;
     height: 80px; 
     background-color: #00868A;
 }
 .main_cat-2 {
-    max-width: 324px;
+    width: 324px;
     height: 80px; 
 }
 .main_cat-3 {
-    max-width: 324px;
+    width: 324px;
     height: 80px;    
     background-color: #00868A;
     
 }
 .main-content {
     margin: 0px auto;
-    max-width: 1295px;
+    width: 1295px;
 }
 .main-content_top{
     display: flex;
     margin: 80px 0px 80px 0px;
-    max-width: 1295px;
+    width: 1295px;
     height: 580px;
 }
 .main-content_top-inovatons {
-    max-width: 526px;
+    width: 526px;
     height: 580px;
     background-color: #00868A;
 }
 
 
 .info_inovations{
-    max-width: 526px;
+    width: 526px;
     height: 315px;
 }
 .img_inovations{
-    max-width: 526px;
+    width: 526px;
     height: 230px;
 }
 
 .info_inovations_top {
-    max-width: 485px;
+    width: 485px;
     height: 40px;
     margin: 35px 0px 0px 40px;
 }
@@ -305,7 +305,7 @@ margin-right: 60px;
 }
 
 .info_inovations_center {
-    max-width: 485px;
+    width: 485px;
     height: 135;
     margin: 30px 0px 25px 40px;
     font-size: 30px;
@@ -314,14 +314,14 @@ margin-right: 60px;
     color: #fff;
 }
 .info_inovations_bottom {
-    max-width: 485px;
+    width: 485px;
     height: 85px;
     margin: 0px 0px 0px 40px;
 }
 
 .main-content_top-est-krasoti {
     margin: 35px 0px 60px 134px;
-    max-width: 636px;
+    width: 636px;
     height: 485px;
 }
 .main-content_top-est-krasoti_top_btn {
@@ -382,20 +382,20 @@ margin-right: 60px;
     position: relative;
     top: 10px;
     left: 100px;
-    max-width: 568px;
+    width: 568px;
     height: 447px;
 }
 
 .main-content_bottom{
     display: flex;
     margin: 0px 0px 100px 0px;
-    max-width: 1295px;
+    width: 1295px;
     height: 504px;
     background-color: rgb(42, 159, 165);
 }
 
 .main-content_bottom_left {
-    max-width: 526px;
+    width: 526px;
     height: 504px;
     font-size: 18px;
     line-height: 27px;
@@ -403,7 +403,7 @@ margin-right: 60px;
 }
 
 .main-content_bottom_btn_news {
-    max-width: 526px;
+    width: 526px;
     height: 40px;
     margin: 35px 0px 0px 40px;
 }
@@ -438,7 +438,7 @@ margin-right: 60px;
 }
 
 .main-content_bottom_right {
-    max-width: 770px;
+    width: 770px;
     height: 504px;
     font-size: 14px;
     line-height: 21px;
@@ -448,7 +448,7 @@ margin-right: 60px;
 .main-content_bottom_right_top {
     display: block;
     margin: 35px 60px 25px 60px;
-    max-width: 650px;
+    width: 650px;
     height: 72px;
     font-size: 24px;
     line-height: 36px;
@@ -473,7 +473,7 @@ margin-right: 60px;
     background-color: #e5f3f3;
 }
 .akt-spec-pred_main-block {
-    max-width: 1295px;
+    width: 1295px;
     margin: 0 auto;
     padding-top: 41px;
 }
@@ -488,7 +488,7 @@ margin-right: 60px;
 
 .akt-spec-pred_conteiner-block {
     display: flex;
-    max-width: 1295px;
+    width: 1295px;
     gap: 24px; /* равномерный отступ между блоками */
     margin-top: 60px;
 }
@@ -503,37 +503,37 @@ margin-right: 60px;
 }
 
 .akt-spec-pred_block {
-    max-width: 306px;
+    width: 306px;
     height: 343px;
     background-color: #00868A;
 }
 
 .akt-spec-pred_block-button1 {
-    max-width: 306px;
+    width: 306px;
     height: 230px;
     background-image: url(image/content/akt-spec-pred_block1.svg);
 }
 
 .akt-spec-pred_block-button1 {
-    max-width: 306px;
+    width: 306px;
     height: 230px;
     background-image: url(image/content/akt-spec-pred_block1.svg);
 }
 
 .akt-spec-pred_block-button2 {
-    max-width: 306px;
+    width: 306px;
     height: 230px;
     background-image: url(image/content/akt-spec-pred_block2.svg);
 }
 
 .akt-spec-pred_block-button3 {
-    max-width: 306px;
+    width: 306px;
     height: 230px;
     background-image: url(image/content/akt-spec-pred_block3.svg);
 }
 
 .akt-spec-pred_block-button4 {
-    max-width: 306px;
+    width: 306px;
     height: 230px;
     background-image: url(image/content/akt-spec-pred_block4.svg);
 }
@@ -556,7 +556,7 @@ margin-right: 60px;
     display: flex;
     margin: 100px 0px 80px 0px;
     /* margin-top: 100px; */
-    max-width: 1296px;
+    width: 1296px;
     height: 392px;
 }
 .footer_uslugi_conteiner{
@@ -622,7 +622,7 @@ line-height: 16.5px;
 .footer-menu {   
     display: flex;
     margin: 0 auto;
-    max-width: 1295px;
+    width: 1295px;
     height: 90px;
     background-color: #fff;
     border-width: 1px 1px 0px 1px; 
@@ -630,7 +630,7 @@ line-height: 16.5px;
     border-color: #C4C4C4;
 }
 .footer-menu_info{
-    max-width: 644px;
+    width: 644px;
     height: 90px;
 
 }
