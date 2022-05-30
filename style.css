@@ -26,7 +26,7 @@ a {
 .conteiner {
     background-color: bisque;
     position: relative;
-    max-width: 1920px;
+    width: 1920px;
     height: 3352px;
     margin: 50px 74px;
     
@@ -35,7 +35,7 @@ a {
 .header-menu {   
     display: flex;
     margin: 0 auto;
-    max-width: 1295px;
+    width: 1295px;
     height: 90px;
     background-color: #fff;  
     border-width: 0px 1px 0px 1px;
@@ -111,7 +111,7 @@ a {
 .first-screen {
     background-color: #4FBFA5 ;
     margin: 0px auto;
-    max-width: 1920px;
+    width: 1920px;
     height: 700px;
     color: #fff;
 }
@@ -468,7 +468,7 @@ margin-right: 60px;
 }
 
 .conteiner_akt-spec-pred {
-    max-width: 1920px;
+    width: 1920px;
     height: 350px;
     background-color: #e5f3f3;
 }
@@ -629,8 +629,25 @@ line-height: 16.5px;
     border-style: solid;
     border-color: #C4C4C4;
 }
-.footer-menu_info{
+
+.footer-menu_info_line_1 {
+    display: flex;
     width: 644px;
     height: 90px;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 18px;
+    
+}
 
+/* .footer-menu_info{
+    width: 644px;
+    height: 90px; */
+
+.footer-copyright {
+    width: 300px;
+    padding: 0px 70px 0px 24px;
+    
 }
